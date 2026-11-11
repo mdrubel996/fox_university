@@ -1,0 +1,273 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  /* CSS */
+}
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .header_iland {
+    display: none;
+  }
+  .header_menu {
+    display: none;
+  }
+  /* Banner section responsive css */
+  .banner {
+    display: none;
+  }
+  .offer{
+    width: 100%;
+  }
+  .offer .our_offer{
+    width: 50%;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* CSS */
+  .header_iland {
+    display: none;
+  }
+  .header_menu {
+    display: none;
+  }
+  /* Banner section responsive css */
+  .banner {
+    display: none;
+  }
+  /* Offer responsive css */
+  .offer {
+    display: grid;
+    padding: 10px;
+  }
+  .offer .our_offer {
+    margin: 0;
+    width: 100%;
+  }
+  .offer .our_offer .activities {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .offer .our_offer_image img {
+    width: 100%;
+    height: 350px;
+    margin: 0;
+  }
+  /* University responsive css */
+  .university img {
+    height: 600px;
+  }
+  .university .fox_university {
+    top: 10px;
+    left: 10px;
+  }
+  .university .fox_university .university_left img {
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+  }
+  .university .fox_university .university_right {
+    padding: 5px;
+  }
+  .university .fox_university .university_right h3 {
+    font-size: 20px;
+    margin: 0;
+  }
+  .university .fox_university .university_right p {
+    font-size: 10px;
+    margin: 0;
+  }
+  .university .details {
+    grid-template-columns: repeat(2, 1fr);
+    bottom: 5px;
+    margin: 5px;
+  }
+  .university .details .details_card {
+    width: 150px;
+    height: 100px;
+  }
+  .university .details .details_card h2 {
+    font-size: 30px;
+    margin: 5px;
+  }
+  .university .details .details_card p {
+    font-size: 15px;
+    margin: 0;
+  }
+  /* Courses */
+  .courses .our_courses h2 {
+    font-size: 40px;
+  }
+  .courses .courses_name {
+    padding: 5px;
+    display: grid;
+  }
+  .courses .courses_name .courses_details {
+    height: auto;
+  }
+  /* Certified teachers responsive css */
+  .teacher .certified_teacher h2 {
+    font-size: 40px;
+  }
+  .teacher .teacher_name {
+    display: grid;
+    padding: 5px;
+  }
+  /* Quate responsive css */
+  .quote img {
+    height: 350px;
+  }
+
+  .quote .quote_content {
+    position: absolute;
+    top: 30px;
+    right: 5px;
+    width: 200px;
+  }
+  .quote .quote_content h3 {
+    margin: 5px;
+    font-size: 30px;
+  }
+  .quote .quote_content p {
+    font-size: 10px;
+    text-align: left;
+    margin: 0;
+  }
+  .quote .quote_content ul {
+    display: grid;
+  }
+  .quote .quote_content ul li {
+    padding: 5px;
+  }
+  .quote .quote_content ul li input {
+    padding: 3px;
+    font-size: 10px;
+  }
+  .quote .quote_content textarea {
+    padding: 3px;
+    font-size: 10px;
+    width: 140px;
+    margin: 5px;
+  }
+  .quote .quote_content button {
+    padding: 5px 10px;
+    margin-left: 15px;
+  }
+  /* Upcoming events responsive css */
+  .events .upcoming_events h2 {
+    font-size: 40px;
+  }
+  .events .upcoming_events p {
+    font-size: 14px;
+    margin: 5px;
+  }
+  .events .events_name {
+    display: grid;
+  }
+  /* Blog responsive css */
+  .blog .recent_blog h2 {
+    font-size: 40px;
+  }
+  .blog .recent_blog p {
+    font-size: 14px;
+    margin: 5px;
+  }
+  .blog .blog_card {
+    display: grid;
+    padding: 10px;
+  }
+  /* About responsive css  */
+  .about .about_us h2 {
+    font-size: 40px;
+  }
+  .about .about_us p {
+    font-size: 14px;
+    margin: 5px;
+  }
+  .about .students {
+    display: grid;
+    padding: 10px;
+  }
+  .about .students .students_card {
+    width: 100%;
+  }
+  .about .students .students_card img {
+    width: 100px;
+    height: 100px;
+  }
+  /* Gallery responsive css */
+  .gallery {
+    display: grid;
+  }
+  .gallery img {
+    width: 100%;
+  }
+  /* Footer responsive css */
+  .footer {
+    display: grid;
+    padding: 0;
+  }
+  .footer .question {
+    width: 100%;
+    justify-items: center;
+  }
+  .footer .recent {
+    width: 100%;
+    justify-items: center;
+  }
+  .footer .recent .recent_item img {
+    margin: 0;
+    padding: 5px;
+  }
+  .footer .links {
+    width: 100%;
+    justify-items: center;
+  }
+  .footer .subscribe {
+    width: 100%;
+    justify-items: center;
+  }
+  /* Footer iland responsive css */
+  .footer_iland p {
+    margin: 0;
+    padding: 5px;
+    font-size: 8px;
+  }
+}
